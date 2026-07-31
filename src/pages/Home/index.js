@@ -97,11 +97,10 @@ export default function Home({ navigation }) {
         <View style={styles.container}>
             <View style={styles.introduction}>
                 <Text style={styles.title}>
-                    Descubra Garanhuns
+                    Descubra a Suíça Pernambucana
                 </Text>
                 <Text style={styles.subtitle}>
-                    Conheça alguns dos espaços turísticos,
-                    culturais e naturais da cidade.
+                    A terra dos festivais é toda sua, aventure-se!
                 </Text>
             </View>
             <TextInput
