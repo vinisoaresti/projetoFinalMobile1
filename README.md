@@ -21,6 +21,19 @@ os locais e abrir uma tela com informações detalhadas.
 - Indicador de carregamento
 - Tratamento de lista vazia
 
+# Personalizações
+
+1. Cadastro de pelo menos oito locais.
+2. Substituição dos textos de exemplo por informações pesquisadas pelo grupo.
+3. Personalização de pelo menos:
+
+- Duas cores;
+- Tamanho de um título;
+- Formato dos cartões;
+- Texto introdutório.
+
+4. Adição de pelo menos um novo campo aos objetos.
+
 ## Tecnologias
 
 - JavaScript
