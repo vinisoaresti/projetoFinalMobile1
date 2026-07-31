@@ -39,7 +39,7 @@ export default function PlaceCard({ place, onPress }) {
 }
 const styles = StyleSheet.create({
     card: {
-        backgroundColor: '#ffffff',
+        backgroundColor: '#cb7beb99',
         borderRadius: 14,
         marginBottom: 18,
         overflow: 'hidden',

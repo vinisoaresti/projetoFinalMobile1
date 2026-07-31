@@ -35,7 +35,7 @@ export default function App() {
             <SafeAreaProvider>
                 <SafeAreaView style={styles.safeArea}>
                     <StatusBar backgroundColor="#174d38" barStyle="light-content" />
-                    
+
                     {/* Header */}
                     <View style={styles.header}>
                         {currentScreen === 'Details' ? (
@@ -74,11 +74,11 @@ export default function App() {
 const styles = StyleSheet.create({
     safeArea: {
         flex: 1,
-        backgroundColor: '#174d38'
+        backgroundColor: '#ffffffff'
     },
     header: {
         height: 56,
-        backgroundColor: '#174d38',
+        backgroundColor: '#50035aff',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
