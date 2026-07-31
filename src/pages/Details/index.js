@@ -46,6 +46,16 @@ export default function Details({ route }) {
                         {place.openingHours}
                     </Text>
                 </View>
+                {place.admission && (
+                    <View style={styles.informationBox}>
+                        <Text style={styles.informationTitle}>
+                            Entrada / Valor
+                        </Text>
+                        <Text style={styles.informationText}>
+                            {place.admission}
+                        </Text>
+                    </View>
+                )}
                 <Text style={styles.sectionTitle}>
                     Sobre o local
                 </Text>

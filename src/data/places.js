@@ -6,6 +6,7 @@ const places = [
         neighborhood: 'Heliópolis',
         address: 'Praça Tavares Correia, Heliópolis, Garanhuns',
         openingHours: 'Espaço público com visitação livre',
+        admission: 'Entrada gratuita',
         image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/51/3a/a9/photo0jpg.jpg?w=1000&h=-1&s=1',
         summary:
             'O principal cartão-postal de Garanhuns, inaugurado em 1981, único do gênero nas regiões Norte e Nordeste do Brasil.',
@@ -19,6 +20,7 @@ const places = [
         neighborhood: 'Heliópolis',
         address: 'Avenida Júlio Brasileiro, Heliópolis, Garanhuns',
         openingHours: 'Consulte os horários definidos pela administração local',
+        admission: 'Entrada gratuita',
         image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/36/c1/b7/parque-dos-eucaliptos.jpg?w=900&h=-1&s=1',
         summary:
             'Conhecido como Parque dos Eucaliptos, é um complexo de lazer de 8 hectares que abriga rica infraestrutura esportiva e cultural.',
@@ -32,6 +34,7 @@ const places = [
         neighborhood: 'Centro',
         address: 'Rua Manoel Clemente, Centro, Garanhuns',
         openingHours: 'Consulte os horários definidos pela administração local',
+        admission: 'Entrada gratuita',
         image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/d2/5f/a2/ta-img-20160702-113232.jpg?w=1000&h=-1&s=1',
         summary:
             'Um recanto de tranquilidade no centro da cidade, conhecido como Pau Pombo, que mescla natureza exuberante e história preservada.',
@@ -45,6 +48,7 @@ const places = [
         neighborhood: 'Heliópolis',
         address: 'Avenida Caruaru, Heliópolis, Garanhuns',
         openingHours: 'Visitação conforme disponibilidade do espaço',
+        admission: 'Entrada gratuita (contribuição voluntária)',
         image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/c3/d4/12/20180714-100518-largejpg.jpg?w=1000&h=-1&s=1',
         summary:
             'Uma fascinante obra de arquitetura popular idealizada e construída ao longo de décadas por um único morador apaixonado pela era medieval.',
@@ -58,6 +62,7 @@ const places = [
         neighborhood: 'Centro',
         address: 'Praça Dom Moura, Centro, Garanhuns',
         openingHours: 'Conforme a programação cultural',
+        admission: 'Entrada gratuita (eventos específicos podem ser pagos)',
         image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/80/62/44/centro-cultural-em-um.jpg?w=1000&h=-1&s=1',
         summary:
             'A antiga Estação Ferroviária de Garanhuns, de bela arquitetura inglesa do século XIX, revitalizada como o principal polo difusor da cultura local.',
@@ -71,6 +76,7 @@ const places = [
         neighborhood: 'Magano',
         address: 'Região do Magano, Garanhuns',
         openingHours: 'Visitação conforme as atividades religiosas',
+        admission: 'Entrada gratuita',
         image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/af/ac/e5/capela-da-mae-rainha.jpg?w=1000&h=-1&s=1',
         summary:
             'Local de visitação religiosa situado em uma área elevada da cidade.',
@@ -84,7 +90,8 @@ const places = [
         neighborhood: 'São José',
         address: 'Praça Tiradentes, 23 - São José, Garanhuns',
         openingHours: 'Domingo (missa às 10h), Dias úteis (missa às 07h)',
-        image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a3/9b/64/mosteiro-de-sao-bento.jpg',
+        admission: 'Entrada gratuita',
+        image: 'https://biblioteca.ibge.gov.br/visualizacao/fotografias/GEBIS%20-%20RJ/pe47087.jpg',
         summary:
             'Mosteiro beneditino tradicional no Agreste pernambucano, famoso por suas missas com canto gregoriano.',
         description:
@@ -97,7 +104,8 @@ const places = [
         neighborhood: 'São Pedro',
         address: 'BR-423, S/N - Distrito de São Pedro, Garanhuns',
         openingHours: 'Quarta a Domingo, das 09:00 às 17:00 / 18:00',
-        image: 'https://polilac.com.br/wp-content/uploads/2022/10/DJI_0621-HDR-scaled.jpg',
+        admission: 'Entrada gratuita no empório (consumo à parte)',
+        image: 'https://images.unsplash.com/photo-1500595046743-cd271d694d30?q=80&w=1000&auto=format&fit=crop',
         summary:
             'Fazenda com amplo espaço de lazer, contato com a natureza e empório regional.',
         description:
@@ -110,7 +118,8 @@ const places = [
         neighborhood: 'Centro',
         address: 'Avenida Santo Antônio, S/N - Centro, Garanhuns',
         openingHours: 'Segunda a Sexta (horário comercial); Visitação externa livre 24h',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Garanhuns-Prefeitura-Pal%C3%A1cio-Celso-Galv%C3%A3o.jpg',
+        admission: 'Entrada gratuita',
+        image: 'https://biblioteca.ibge.gov.br/visualizacao/fotografias/GEBIS%20-%20RJ/pe47090.jpg',
         summary:
             'Edifício histórico com bela arquitetura e sede da atual Prefeitura Municipal.',
         description:
@@ -123,7 +132,8 @@ const places = [
         neighborhood: 'Magano',
         address: 'Alto do Morro do Magano, Garanhuns',
         openingHours: 'Aberto 24 horas',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/2/23/Cristo_do_Magano_-_Garanhuns%2C_Pernambuco%2C_Brasil.jpg',
+        admission: 'Entrada gratuita',
+        image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cristo_do_Magano_-_Garanhuns%2C_Pernambuco%2C_Brasil.jpg',
         summary:
             'Monumento e mirante localizado no ponto mais alto de Garanhuns, a 1.030 metros de altitude.',
         description:
@@ -136,7 +146,8 @@ const places = [
         neighborhood: 'Zona Rural',
         address: 'Sítio Mochila de Baixo, 850 - Zona Rural, Garanhuns',
         openingHours: 'Quinta a Domingo, das 10:00 às 18:00',
-        image: 'https://brasildevinhos.com.br/wp-content/uploads/2024/02/vinicola-mello-garanhuns-1024x683.jpg',
+        admission: 'Entrada gratuita (tours guiados R$ 60,00)',
+        image: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1000&auto=format&fit=crop',
         summary:
             'Propriedade com vinhedos voltada ao enoturismo e produção de vinhos.',
         description:
@@ -149,7 +160,8 @@ const places = [
         neighborhood: 'Heliópolis',
         address: 'Praça Souto Filho - Bairro Heliópolis, Garanhuns',
         openingHours: 'Aberto 24 horas',
-        image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a5/d8/d5/praca-souto-filho.jpg',
+        admission: 'Entrada gratuita',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCsI-BEP_bgsIgS22KSrFB-bIl5qsMukCoUpArr3_8izG93O8OpUljmBNq&s=10',
         summary:
             'Uma das praças mais queridas da cidade, famosa por sua fonte com águas iluminadas.',
         description:
@@ -162,7 +174,8 @@ const places = [
         neighborhood: 'Zona Rural',
         address: 'Fazenda São Silvestre, S/N - Zona Rural, Garanhuns',
         openingHours: 'Quintas e Sextas (12:00 às 18:00), Sábados e Domingos (10:00 às 18:00)',
-        image: 'https://static.wixstatic.com/media/2e3a1f_7b3a4a007f354f3b8b6f3c14d9342417~mv2.jpg',
+        admission: 'R$ 50,00 (visita especial / meia R$ 25,00)',
+        image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1000&auto=format&fit=crop',
         summary:
             'Vinícola pioneira no estilo boutique que transformou a região no mais novo terroir brasileiro.',
         description:
@@ -175,7 +188,8 @@ const places = [
         neighborhood: 'Centro',
         address: 'Região central (próximo à Praça Dom Moura), Garanhuns',
         openingHours: 'Variável de acordo com as programações e exposições do dia',
-        image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/5e/52/bd/espaco-cultural-luiz.jpg',
+        admission: 'Entrada gratuita',
+        image: 'https://s2-g1.glbimg.com/N08V_JcXnzMhxPlaW8SOUyjVk5o=/0x0:540x358/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/I/l/jpIc4bS5WjpJCcvePsow/3-2.jpg',
         summary:
             'Ponto dedicado à promoção de artes plásticas, literatura e manifestações artísticas locais.',
         description:
