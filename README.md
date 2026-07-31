@@ -42,8 +42,9 @@ npm install
 npx expo start
 ```
 
-Estrutura
-src
-├── components
-├── data
-└── pages
+Estrutura:
+
+/src
+├── /components
+├── /data
+└── /pages
